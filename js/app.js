@@ -67,7 +67,7 @@
       })
       .catch(function(){
         ui.removeTypingBubble();
-        ui.showToast("Gagal mendapatkan jawaban AI. Coba lagi.");
+        ui.showToast("Gagal bg, coba hapus chat ulang.");
       })
       .finally(function(){
         setLoading(false);
@@ -78,7 +78,7 @@
     if (isRequesting) return;
     var trimmed = input.value.trim();
     if (trimmed === ""){
-      ui.showToast("Pesan tidak boleh kosong");
+      ui.showToast("Pesan gaboleh kosong jig");
       return;
     }
 
@@ -121,14 +121,14 @@
   function handleClearChat(){
     ui.rippleEffect(clearChatBtn);
     if (messages.length === 0){
-      ui.showToast("Belum ada percakapan");
+      ui.showToast("blum ada percakapan");
       return;
     }
     ui.openConfirmModal(function(){
       messages = [];
       saveHistory();
       render();
-      ui.showToast("Chat berhasil dihapus", "success");
+      ui.showToast("ngapain dihapus jir ", "success");
     });
   }
 
