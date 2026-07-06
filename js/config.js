@@ -5,7 +5,7 @@
 window.NEURA = window.NEURA || {};
 
 NEURA.config = {
-  API_BASE: "https://api.theresav.biz.id/ai/claude",
+  API_BASE: "https://api.synoxcloud.xyz/ai-chat/claude-opus-4.8?pesan=",
   API_KEY: "ziP11",           // JANGAN PERNAH DIUBAH
   CONTEXT_LIMIT: 16,          // jumlah pesan terakhir yang dipakai sebagai memori percakapan
   STORAGE_KEY: "neura_chat_history_v1",
