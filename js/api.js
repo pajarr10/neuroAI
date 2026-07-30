@@ -38,7 +38,7 @@ NEURA.api = (function () {
   function call(contextText) {
     var url =
       cfg.API_BASE +
-      "?text=" +
+      "?chat=" +
       encodeURIComponent(contextText) +
       "&apikey=" +
       cfg.API_KEY;
